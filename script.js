@@ -12,6 +12,7 @@ if (close){
     close.addEventListener('click', () => {
         nav.classList.remove('active');
     })
+<<<<<<< HEAD
 }*/
 
 
@@ -101,6 +102,9 @@ const showMenu = (toggleId, navId) =>{
 
 
 
+=======
+}
+>>>>>>> ed89f0c6768d280e2b00b13aa0255c55eb4c0e07
 
 
 
@@ -139,5 +143,10 @@ function showSlides() {
       slideIndex++;
          if (slideIndex > slides.length) { slideIndex = 1 }
             slides[slideIndex - 1].style.display = "block";
+<<<<<<< HEAD
             setTimeout(showSlides, 4000); // Change image every 4 seconds
 }
+=======
+            setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+>>>>>>> ed89f0c6768d280e2b00b13aa0255c55eb4c0e07

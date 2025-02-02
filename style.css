@@ -343,15 +343,6 @@ body {
   font-weight: 400;
   font-size: 12px;
 }*/
-<<<<<<< HEAD
-=======
-
-
-
-
-
-
-
 /*HERO SECTION*/
 .mySlides {
   display: none
@@ -432,13 +423,6 @@ to {opacity: 1}
 .prev, .next,.text {font-size: 14px}
 }
 
-
-
-
-
-
-
->>>>>>> ed89f0c6768d280e2b00b13aa0255c55eb4c0e07
 
 #feature{
   display: flex;
@@ -1952,7 +1936,6 @@ to {opacity: 1}
   #blog .blog-details{
     width: 100%;
   }
-<<<<<<< HEAD
 
   #text-contactlens h4{
     margin-left: 15px;
@@ -2289,6 +2272,3 @@ to {opacity: 1}
   padding-right: 55px;
   margin-top: 40px;
 }
-=======
-}
->>>>>>> ed89f0c6768d280e2b00b13aa0255c55eb4c0e07

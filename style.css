@@ -554,7 +554,7 @@ body {
   height: 400px;
   object-fit: cover;
 }
-.container .slider-scrollbar {
+.short-image-slider .slider-scrollbar {
   height: 24px;
   width: 100%;
   display: flex;

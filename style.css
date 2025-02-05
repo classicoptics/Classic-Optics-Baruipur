@@ -893,15 +893,15 @@ body {
   background-position: center;
 }
 
-#banner-105{
+#banner-k01{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url("https://static1.lenskart.com/media/desktop/img/18-dec-24/Color%20CL/Color-CL-tab-combos.png");
+  background-image: url("img/banner/k01.png");
   width: 100%;
-  height: 55vh;
+  height: 60vh;
   background-size: cover;
   background-position: center;
 }
@@ -1825,10 +1825,12 @@ to {opacity: 1}
   #banner-1001{
     background-image: url("img/banner/bb1001.png");
   }
-
-  #banner-105{
-    display: none;
+  #banner-k01{
+    background-image: url("img/banner/kk01.png");
+    width: 100%;
   }
+
+  
 
   #newsletter .form{
     width: 70%;
@@ -1964,8 +1966,8 @@ to {opacity: 1}
   #banner-102{
     background-image: url("img/banner/bbb102.png");
   }
-  #banner-105{
-    background-image: url("https://static1.lenskart.com/media/desktop/img/18-dec-24/Color%20CL/Color-CL-tab-combos.png");
+  #banner-k01{
+    background-image: url("img/banner/kkk01.png");
   }
   #banner-1001{
     background-image: url("img/banner/bbb1001.png");

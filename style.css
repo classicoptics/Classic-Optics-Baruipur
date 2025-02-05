@@ -385,6 +385,10 @@ body {
   background-color: transparent;
 } /*088178*/
 
+#feature .fe-box-101{
+  border-radius: 0px;
+}
+
 
 #text-contactlens h4{
   text-align: center;

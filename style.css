@@ -626,6 +626,15 @@ body {
     width: 20%;
   }
 }
+@media (max-width: 473px){
+  .slider-wrapper .image-list video {
+    border-radius: 10px;
+  }
+  
+  .slider-wrapper .image-list img {
+    border-radius: 10px;
+  }
+}
 
 
 

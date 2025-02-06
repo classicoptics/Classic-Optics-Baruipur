@@ -558,6 +558,15 @@ body {
   height: 400px;
   object-fit: cover;
 }
+
+.slider-wrapper .image-list video {
+  border-radius: 10px;
+}
+
+.slider-wrapper .image-list img {
+  border-radius: 10px;
+}
+
 .short-image-slider .slider-scrollbar {
   height: 24px;
   width: 100%;

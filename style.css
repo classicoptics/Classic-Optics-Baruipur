@@ -385,6 +385,10 @@ body {
   background-color: transparent;
 } /*088178*/
 
+#feature .fe-box-101{
+  border-radius: 0px;
+}
+
 
 #text-contactlens h4{
   text-align: center;
@@ -474,11 +478,39 @@ body {
 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> bafd63d4eb8a7113d50d8e6fbf04676c8d24990a
 #body{
   display: flex;
   align-items: center;
   justify-content: center;
+<<<<<<< HEAD
   min-height: 75vh;
+=======
+  min-height: 60vh;
+>>>>>>> bafd63d4eb8a7113d50d8e6fbf04676c8d24990a
 }
 .short-image-slider {
   max-width: 1200px;
@@ -521,6 +553,7 @@ body {
   gap: 18px;
   font-size: 0;
   list-style: none;
+<<<<<<< HEAD
   margin-top: 5px;
   margin-bottom: 10px;
   overflow-x: auto;
@@ -534,6 +567,12 @@ body {
   border-radius: 10px;
 }
 
+=======
+  margin-bottom: 30px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+>>>>>>> bafd63d4eb8a7113d50d8e6fbf04676c8d24990a
 .slider-wrapper .image-list::-webkit-scrollbar {
   display: none;
 }
@@ -542,6 +581,18 @@ body {
   height: 400px;
   object-fit: cover;
 }
+<<<<<<< HEAD
+=======
+
+.slider-wrapper .image-list video {
+  border-radius: 10px;
+}
+
+.slider-wrapper .image-list img {
+  border-radius: 10px;
+}
+
+>>>>>>> bafd63d4eb8a7113d50d8e6fbf04676c8d24990a
 .short-image-slider .slider-scrollbar {
   height: 24px;
   width: 100%;
@@ -601,7 +652,10 @@ body {
     width: 20%;
   }
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> bafd63d4eb8a7113d50d8e6fbf04676c8d24990a
 @media (max-width: 473px){
   .slider-wrapper .image-list video {
     border-radius: 10px;
@@ -625,6 +679,21 @@ body {
 
 
 
+<<<<<<< HEAD
+=======
+
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> bafd63d4eb8a7113d50d8e6fbf04676c8d24990a
 /* Products */
 #product1{
   text-align: center;
@@ -879,6 +948,10 @@ body {
   background-position: center;
 }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> bafd63d4eb8a7113d50d8e6fbf04676c8d24990a
 
 #banner-1001{
   display: flex;
@@ -1786,6 +1859,11 @@ to {opacity: 1}
     background-image: url("img/banner/bb1001.png");
   }
 
+<<<<<<< HEAD
+=======
+  
+
+>>>>>>> bafd63d4eb8a7113d50d8e6fbf04676c8d24990a
   #newsletter .form{
     width: 70%;
   }
@@ -2325,6 +2403,7 @@ to {opacity: 1}
   padding-right: 55px;
   margin-top: 40px;
 }
+<<<<<<< HEAD
 
 
 
@@ -2432,3 +2511,5 @@ section1{
 
 
 
+=======
+>>>>>>> bafd63d4eb8a7113d50d8e6fbf04676c8d24990a

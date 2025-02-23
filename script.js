@@ -226,9 +226,12 @@ const initSlider = () => {
 }
 window.addEventListener("resize", initSlider);
 window.addEventListener("load", initSlider);
+<<<<<<< HEAD
 
 
 
 
 
 
+=======
+>>>>>>> bafd63d4eb8a7113d50d8e6fbf04676c8d24990a

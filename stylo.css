@@ -327,3 +327,30 @@ a {
     margin-inline: auto;
   }
 }
+
+
+
+
+.my_cover{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.banner_img{
+  width: 100%;
+  height: 250px;
+  position: relative;
+}
+
+@media only screen and (min-width: 1440px) {
+  #body4{
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #body4{
+    display: none;
+  }
+}

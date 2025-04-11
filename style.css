@@ -84,7 +84,7 @@ body {
 }
 
 #ad-banner{
-  background-color: #470101;
+  background-color: #451d12;
 }
 #ad-banner .ad-text p{
   color: #fff;
@@ -713,80 +713,32 @@ body {
 }
 
 /* Banner */
-#banner{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-image: url("img/banner/b2.jpg");
-  width: 100%;
-  height: 40vh;
-  background-size: cover;
-  background-position: center;
-}
-
-#banner2{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-image: url("img/banner/sgs2.png");
-  margin-right: 100px;
-  margin-left: 100px;
-  border-radius: 15px;
-  height: 40vh;
-  background-size: cover;
-}
-#banner2 h4{
-  color: #060e3b;
-  font-size: 16px;
-}
-#banner2 h2{
-  color: #060e3b;
-  font-size: 30px;
-  padding: 10px 0;
-}
-#banner2 button:hover{
-  background-color: #01013b;
-  color: #fff;
-}
-
-#banner-2{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-image: url("img/banner/b1.jpg");
-  width: 100%;
-  height: 40vh;
-  background-size: cover;
-  background-position: center;
-}
 
 #banner-3{
   display: flex;
+  margin: 0 auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   background-image: url("https://static1.lenskart.com/media/desktop/img/Aug21/Desktop/VC-Banner.jpg");
-  width: 100%;
+  width: 90%;
   height: 40vh;
+  border-radius: 25px;
   background-size: cover;
   background-position: center;
 }
 
 #banner-4{
   display: flex;
+  margin: 0 auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   background-image: url("https://static1.lenskart.com/media/desktop/img/Nov22/Updated%20brand%20banner%20jj%20.jpg");
-  width: 100%;
+  width: 90%;
+  border-radius: 25px;
   height: 40vh;
   background-size: cover;
   background-position: center;
@@ -794,12 +746,14 @@ body {
 
 #banner-5{
   display: flex;
+  margin: 0 auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   background-image: url("https://static1.lenskart.com/media/desktop/img/Nov20/25-Nov/Banner05_Final2ndDec21.jpg");
-  width: 100%;
+  width: 90%;
+  border-radius: 25px;
   height: 40vh;
   background-size: cover;
   background-position: center;
@@ -807,12 +761,14 @@ body {
 
 #banner-6{
   display: flex;
+  margin: 0 auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   background-image: url("https://static1.lenskart.com/media/desktop/img/June22/Our-Brands-Banner.jpg");
-  width: 100%;
+  width: 90%;
+  border-radius: 25px;
   height: 40vh;
   background-size: cover;
   background-position: center;
@@ -820,12 +776,14 @@ body {
 
 #banner-7{
   display: flex;
+  margin: 0 auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   background-image: url("img/banner/sgs1.png");
-  width: 100%;
+  width: 90%;
+  border-radius: 25px;
   height: 40vh;
   background-size: cover;
   background-position: center;
@@ -833,66 +791,15 @@ body {
 
 #banner-8{
   display: flex;
+  margin: 0 auto;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
   background-image: url("https://static1.lenskart.com/media/desktop/img/8-oct-24/marble/web.gif");
-  width: 100%;
+  width: 90%;
+  border-radius: 25px;
   height: 50vh;
-  background-size: cover;
-  background-position: center;
-}
-
-#banner-9{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-image: url("https://static1.lenskart.com/media/desktop/img/Aug24/TR-Flex-1824/TR-Flex-Desktop.jpg");
-  width: 100%;
-  height: 50vh;
-  background-size: cover;
-  background-position: center;
-}
-
-#banner-101{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-image: url("img/banner/b101.png");
-  width: 100%;
-  height: 40vh;
-  background-size: cover;
-  background-position: center;
-}
-
-#banner-102{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-image: url("img/banner/b102.png");
-  width: 100%;
-  height: 55vh;
-  background-size: cover;
-  background-position: center;
-}
-
-
-#banner-1001{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-image: url("img/banner/b1001.png");
-  width: 100%;
-  height: 55vh;
   background-size: cover;
   background-position: center;
 }
@@ -1016,9 +923,6 @@ body {
 #sm-banner .banner-box11{
   background-image: url("img/banner/a1.png");
 }
-#sm-banner .banner-box12{
-  background-image: url("img/banner/a2.png");
-}
 #sm-banner .banner-box13{
   background-image: url("img/banner/a3.png");
 }
@@ -1069,54 +973,7 @@ body {
   font-size: 15px;
 }
 
-/* Newsletter */
-#newsletter{
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  align-items: center;
-  background-image: url("img/banner/b14.png");
-  background-repeat: no-repeat;
-  background-position: 20% 30%;
-  background-color: #01013b;
-}
-#newsletter h4{
-  font-size: 22px;
-  font-weight: 700;
-  color: #fff;
-}
-#newsletter p{
-  font-size: 14px;
-  font-weight: 600;
-  color: #8d8a8a;
-}
-#newsletter p span{
-  color: #ccee0f;
-}
-#newsletter .form{
-  display: flex;
-  width: 40%;
-}
-/*#newsletter input{
-  height: 3.130rem;
-  padding: 0 1.25em;
-  font-size: 14px;
-  width: 100%;
-  border: 1px solid transparent;
-  border-radius: 4px;
-  outline: none;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}*/
-#newsletter button{
-  background-color: #d7fc05;
-  color: #01013b;
-  white-space: nowrap;
-  border-top-right-radius: 5px;
-  border-bottom-right-radius: 5px;
-  border-top-left-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
+
 
 /* Footer */
 footer{
@@ -1354,51 +1211,6 @@ to {opacity: 1}
   color: #060e3b;
 }
 
-/* Gallery -----------------------------------------*/
-#page-header.contact-header{
-  background-image: url("img/banner/b2.jpg");
-}
-
-.container-gallery{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  margin: 40px 20px 0 20px;
-}
-
-.container-gallery .box-gallery{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.container-gallery .box-gallery .dream{
-  display: flex;
-  flex-direction: column;
-  width: 32.5%;
-}
-
-.container-gallery .box-gallery .dream img{
-  width: 100%;
-  padding-bottom: 15px;
-  border-radius: 5px;
-}
-
-.container-gallery .button-gallery{
-  margin: 40px 0 70px 0;
-  background: #01013b;
-  padding: 15px 40px;
-  border-radius: 5px;
-}
-.container-gallery .button-gallery a{
-  color: white;
-  font-size: 100%;
-  text-decoration: none;
-  font-weight: bold;
-}
-/* Gallery End -------------------------------------*/
 
 /* Contact Page ------------------------------------------------- */
 #page-header.contact-header{
@@ -1703,25 +1515,6 @@ to {opacity: 1}
   #banner-7{
     background-image: url("img/banner/pp5.png");
   }
-  #banner-8{
-    background-image: url("img/banner/pp6.png");
-  }
-  #banner-9{
-    background-image: url("img/banner/pp7.png");
-  }
-  #banner-101{
-    background-image: url("img/banner/bb101.png");
-  }
-  #banner-102{
-    background-image: url("img/banner/bb102.png");
-  }
-  #banner-1001{
-    background-image: url("img/banner/bb1001.png");
-  }
-
-  #newsletter .form{
-    width: 70%;
-  }
 
 
   /* Contact Page */
@@ -1730,14 +1523,6 @@ to {opacity: 1}
   }
   #form-details form{
     width: 50%;
-  }
-
-  .container-gallery .box-gallery{
-    flex-direction: column;
-  }
-
-  .container-gallery .box-gallery .dream{
-    width: 100%;
   }
 }
 
@@ -1840,25 +1625,6 @@ to {opacity: 1}
   }
   #banner-7{
     background-image: url("img/banner/bb5.png");
-  }
-  #banner-8{
-    background-image: url("img/banner/bb7.png");
-  }
-  #banner-9{
-    background-image: url("img/banner/bb6.png");
-  }
-  #banner-101{
-    background-image: url("img/banner/bbb101.png");
-  }
-  #banner-102{
-    background-image: url("img/banner/bbb102.png");
-  }
-  #banner-1001{
-    background-image: url("img/banner/bbb1001.png");
-  }
-
-  #newsletter{
-    padding: 40px 20px;
   }
 
 
@@ -2034,7 +1800,7 @@ to {opacity: 1}
   }
 }
 .nav__link {
-  color: var(--title-color);
+  color: hsl(0deg 0% 0%);
   font-weight: var(--font-semi-bold);
   padding: 1.25rem 1.5rem;
   display: flex;
@@ -2318,11 +2084,11 @@ section1{
 }
 
 .tab-btn:hover{
-  background: #470101;
+  background: #451d12;
   color: #ffffff;
 }
 
 .tab-btn.active{
-  background: #470101;
+  background: #451d12;
   color: #ffffff;
 }

@@ -67,6 +67,27 @@ button.normal{
   transition: 0.2s;
 }
 
+button.normal_all{
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 30px;
+  color: #fff;
+  background-color: #000109;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  transition: 0.2s;
+}
+
+button.normal_all:hover{
+  background-color: #fff;
+  border: 2.5px solid #000;
+  color: #000;
+  box-shadow: #000;
+  transition: 0.2s ease;
+}
+
 button.white{
   font-size: 13px;
   font-weight: 600;

@@ -105,7 +105,7 @@ body {
 }
 
 #ad-banner{
-  background-color: #451d12;
+  background-color: #000f1a;
 }
 #ad-banner .ad-text p{
   color: #fff;
@@ -2214,11 +2214,11 @@ section1{
 }
 
 .tab-btn:hover{
-  background: #451d12;
+  background: #000f1a;
   color: #ffffff;
 }
 
 .tab-btn.active{
-  background: #451d12;
+  background: #000f1a;
   color: #ffffff;
 }

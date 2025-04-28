@@ -771,10 +771,10 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url("https://static1.lenskart.com/media/desktop/img/Nov20/25-Nov/Banner05_Final2ndDec21.jpg");
+  background-image: url("https://india.ray-ban.com/media/wysiwyg/Rb_sunglasses_clp_opti/07_RB_Sunglasses_Page_Bottom_Banner_Desktop.jpg");
   width: 90%;
   border-radius: 25px;
-  height: 40vh;
+  height: 55vh;
   background-size: cover;
   background-position: center;
 }
@@ -1636,7 +1636,8 @@ to {opacity: 1}
     background-image: url("img/banner/pp2.png");
   }
   #banner-5{
-    background-image: url("img/banner/pp4.png");
+    background-image: url("https://india.ray-ban.com/media/wysiwyg/Rb_sunglasses_clp_opti/07_RB_Sunglasses_Page_Bottom_Banner_Desktop.jpg");
+    height: 35vh;
   }
   #banner-6{
     background-image: url("img/banner/pp3.png");
@@ -1747,7 +1748,9 @@ to {opacity: 1}
     background-image: url("img/banner/bb2.png");
   }
   #banner-5{
-    background-image: url("img/banner/bb4.png");
+    background-image: url("https://india.ray-ban.com/media/wysiwyg/Rb-M-sunglasses_clp_opti/07_RB_Sunglasses_Page_Bottom_Banner_Mobile.jpg");
+    height: 65vh;
+    border-radius: 10px;
   }
   #banner-6{
     background-image: url("img/banner/bb3.png");

@@ -1749,8 +1749,9 @@ to {opacity: 1}
   }
   #banner-5{
     background-image: url("https://india.ray-ban.com/media/wysiwyg/Rb-M-sunglasses_clp_opti/07_RB_Sunglasses_Page_Bottom_Banner_Mobile.jpg");
-    height: 65vh;
-    border-radius: 10px;
+    width: 100%;
+    height: 55vh;
+    border-radius: 0px;
   }
   #banner-6{
     background-image: url("img/banner/bb3.png");

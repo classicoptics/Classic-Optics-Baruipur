@@ -889,6 +889,16 @@ body {
   font-weight: 800;
 }
 
+.premium-ad{
+  width: 95%;
+  height: auto;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin: auto;
+}
+
 #sm-banner span{
   color: #fff;
   font-size: 20px;

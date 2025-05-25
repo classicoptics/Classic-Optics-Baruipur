@@ -111,9 +111,11 @@ body {
   align-items: center;
   justify-content: center;
   text-align: center;
-  font-size: 12px;
+  font-size: 20px;
   font-weight: 500;
   padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
   padding-bottom: 10px;
   text-decoration: none;
 }

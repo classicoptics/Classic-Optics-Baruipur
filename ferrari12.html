@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sameday Optician</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css">
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="stylo.css">
+    </head>
+
+    <body>
+
+        <header class="header">
+            <nav class="nav container">
+                <div class="nav__data">
+                    <img src="img/logo1.png" alt="" class="nav__logo" onclick="window.location.href='index.html'">
+
+                    <div class="cart-icon nav__wish nav__searchmobile" id="cart-icon search-btn">
+                        <i class="ri-heart-line"></i>
+                        <span id="cart-count">0</span>
+                    </div>
+    
+                    <i class="ri-search-line nav__search nav__searchmobile" id="search-btn" onclick="window.location.href='search.html'"></i>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-line nav__toggle-menu"></i>
+                        <i class="ri-close-line nav__toggle-close"></i>
+                    </div>
+                </div>
+
+                <!--=============== NAV MENU ===============-->
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+
+                        <!--=============== DROPDOWN 1 ===============-->
+                        <li class="dropdown__item">                      
+                            <div class="nav__link dropdown__button">
+                                Eyeglasses <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+
+                            <div class="dropdown__container">
+                                <div class="dropdown__content">
+    
+                                    <div class="dropdown__group">
+    
+                                        <span class="dropdown__title">SHOP BY BRANDS</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="raybaneyeglasses.html" class="dropdown__link">Rayban</a>
+                                            </li>
+                                            <li>
+                                                <a href="t&h.html" class="dropdown__link">Tommy Hilfiger</a>
+                                            </li>
+                                            <li>
+                                                <a href="oakley.html" class="dropdown__link">Oakley</a>
+                                            </li>
+                                            <li>
+                                                <a href="armani.html" class="dropdown__link">Armani</a>
+                                            </li>
+                                            <li>
+                                                <a href="brands.html" class="dropdown__link">View More</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+    
+                                    <div class="dropdown__group">
+    
+                                        <span class="dropdown__title">Category</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="menseyewear.html" class="dropdown__link">Men</a>
+                                            </li>
+                                            <li>
+                                                <a href="womenseyewear.html" class="dropdown__link">Women</a>
+                                            </li>
+                                            <li>
+                                                <a href="kidseyewear.html" class="dropdown__link">Kids</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <!--=============== DROPDOWN 2 ===============-->
+                        <li class="dropdown__item">
+                            <div class="nav__link dropdown__button">
+                                Sunglasses <i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                            </div>
+
+                            <div class="dropdown__container">
+                                <div class="dropdown__content">
+    
+                                    <div class="dropdown__group">
+    
+                                        <span class="dropdown__title">SHOP BY BRANDS</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="raybansunglasses.html" class="dropdown__link">Rayban</a>
+                                            </li>
+                                            <li>
+                                                <a href="t&h.html" class="dropdown__link">Tommy Hilfiger</a>
+                                            </li>
+                                            <li>
+                                                <a href="armani.html" class="dropdown__link">Armani</a>
+                                            </li>
+                                            <li>
+                                                <a href="oakley.html" class="dropdown__link">Oakley</a>
+                                            </li>
+                                            <li>
+                                                <a href="brands.html" class="dropdown__link">View More</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="dropdown__group">
+    
+                                        <span class="dropdown__title">Category</span>
+    
+                                        <ul class="dropdown__list">
+                                            <li>
+                                                <a href="menssunglasses.html" class="dropdown__link">Men</a>
+                                            </li>
+                                            <li>
+                                                <a href="womenssunglasses.html" class="dropdown__link">Women</a>
+                                            </li>
+                                            <li>
+                                                <a href="kidssunglasses.html" class="dropdown__link">Kids</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li>
+                            <a href="contactlens.html" class="nav__link">Contact Lens</a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html" class="nav__link">Store Locator</a>
+                        </li>  
+                        
+                        <li class="desktop_only">
+                            <a href="search.html" class="nav__link">Search <i class="ri-search-line nav__search nav-search" id="search-btn"></i></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </nav>
+        </header>
+
+        <section id="body2">
+            <section1 class="main-contain">
+                <div class="tab-nav-bar">
+                    <div class="tab-navigation">
+                        <ul class="tab-menu">
+                            <a href="index.html"><li class="tab-btn">All</li></a>
+                            <a href="classics.html"><li class="tab-btn">Classics</li></a>
+                            <a href="premiumprice.html"><li class="tab-btn">Premium</li></a>
+                            <a href="luxury.html"><li class="tab-btn">Luxury</li></a>
+                            <a href="eyeglasses.html"><li class="tab-btn">Eyeglasses</li></a>
+                            <a href="brands.html"><li class="tab-btn active">Brands</li></a>
+                            <a href="sunglasses.html"><li class="tab-btn">Sunglasses</li></a>
+                            <a href="contactlens.html"><li class="tab-btn">Contact Lens</li>
+                            <a href="kids.html"><li class="tab-btn">Kids</li></a>
+                        </ul>
+                    </div>
+                </div>
+            </section1>
+        </section>
+
+        <section id="header2">
+            <div>
+                <ul id="navbar2">
+                    <li><a href="index.html"> <span>Online</span></a></li>
+                    <li><a href="contact.html"> <span>Store</span></a></li>
+                    <li><a href="tel.to:9830008849"> <span>Home</span></a></li>
+                    <li><a href="https://wa.me/9830008849"> <span>Chat</span></a></li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="ad-banner">
+            <div class="ad-text">
+                <p>The <strong>MONTHLY DISCOUNTS</strong> Fourth Week each month. <strong>SHOP NOW!</strong></p>
+            </div>
+        </section>
+
+
+        <section id="prodetails" class="section-p1">
+
+            <div class="single-pro-image">
+                <p>Kindly <strong>click on the small images</strong> to check them.</p>
+                <img src="https://store.ferrari.com/dw/image/v2/BGDG_PRD/on/demandware.static/-/Sites-48/default/dwaf3d7fea/images/zoom/LA018f_11_2.jpg?sw=720&sh=990" width="100%" id="BainBridge1" alt="">
+
+                <div class="small-image-group">
+                    <div class="small-image-col">
+                        <img src="https://store.ferrari.com/dw/image/v2/BGDG_PRD/on/demandware.static/-/Sites-48/default/dwaf3d7fea/images/zoom/LA018f_11_2.jpg?sw=720&sh=990" width="100%" class="small-img" alt="">
+                    </div>
+
+                    <div class="small-image-col">
+                        <img src="https://store.ferrari.com/dw/image/v2/BGDG_PRD/on/demandware.static/-/Sites-48/default/dw05c947a3/images/zoom/LA018f_11_1.jpg?sw=720&sh=990" width="100%" class="small-img" alt="">
+                    </div>
+
+                    <div class="small-image-col">
+                        <img src="https://store.ferrari.com/dw/image/v2/BGDG_PRD/on/demandware.static/-/Sites-48/default/dw407212d4/images/zoom/LA018f_11_3.jpg?sw=720&sh=990" width="100%" class="small-img" alt="">
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="single-pro-details">
+                <h6><a href="index.html">Home</a> / <a href="ferrari.html">Ferrari</a></h6>
+                <h4>Ray-Ban for Scuderia Ferrari RB3762M</h4>
+                <h2>₹30449</h2>
+
+                
+                
+                <!-- <p class="pro-para"><strong>For prescription glasses or power addition</strong> contact us via WhatsApp or Email within 2 hours after checkout.</p>
+                <a href="https://wa.me/9830008849"><button class="normal">WhatsApp</button></a> &ensp;&ensp;<strong class="pro-strong">Or</strong>&ensp;&ensp; <a href="mailto:samedayopticians@gmail.com"><button class="normal">Email</button></a> -->
+
+                <h4>Product Details : </h4>
+
+                <span><strong>Model : </strong> LA018f11 </br> UNISEX GLASSES </br></span>
+
+                <span>  </br>
+                    <strong>Size : </strong> 58-14-140 </br>
+                    <strong>Shape : </strong> Aviator </br>
+                    <strong>Frame : </strong> Metal Silver </br>
+                    <strong>Lens Color : </strong> Gradient Blue with Grey </br>
+                </span>
+            </div>
+
+        </section>
+
+
+        <div class="cart-model" id="cart-model">
+            <div class="cart-head">
+                <h2>Your Wishlist</h2>
+                <button class="close-btn">X</button>
+            </div>
+    
+            <ul id="cart-items">
+    
+            </ul>
+    
+            <div class="cart-total">Total: ₹<span id="total-price">0</span></div>
+            <div class="checkout-btn" onclick="window.location.href='sunglasses.html'">Explore More&ensp;➡</div>
+        </div>
+
+        <footer>
+            <div class="footer_container">
+                <div class="sec">
+                    <h3>About Us</h3>
+                    <p>Sameday Optician established in 2018, we sell premium quality & branded eyewear to all our customers. With over 10+ brands to choose from. Also doctor's recommendations, eye-checkups & contact lenses all in one place.</p>
+
+                    <ul class="sci">
+                        <li><a href="https://www.facebook.com/share/1A9Y3MccRN/"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+                        <li><a href="https://www.instagram.com/samedayoptician/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+                        <li><a href=""><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="sec quicklinks">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="contact.html">Store Locator</a></li>
+                        <li><a href="tel:9830008849">Doctor's Appointment</a></li>
+                        <li><a href="https://g.co/kgs/WtQEtJr">Visit Store</a></li>
+                        <li><a href="Wa.me/9830008849/">Help? Chat With Us!</a></li>
+                        <li><a href="https://merchant.razorpay.com/policy/QEC56RkZlJZ5dU/contact_us">Policies</a></li>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+
+                <div class="sec contact">
+                    <h3>Contact</h3>
+                    <ul class="info">
+                        <li>
+                            <span><i class="fa fa-map" aria-hidden="true"></i> &ensp; CE Block (Newtown), Action Area 1,</br>Kolkata-700156 (WB), India</span> 
+                        </li>
+
+                        <li>
+                            <p> <span><i class="fa fa-phone" aria-hidden="true"></i></span> <a href="tel:9830008849">Call Us!</a></p>
+                        </li>
+
+                        <li>
+                            <p> <span><i class="fa fa-envelope" aria-hidden="true"></i></span> <a href="mailto:samedayopticians@gmail.com">Email Us!</a></p>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+            <div class="copyright">
+                <p>Copyright 2025 Sameday Optician. All Rights Reserved.</p>
+            </div>
+        </footer>
+
+
+        <script>
+            var BainBridge1 = document.getElementById("BainBridge1");
+            var smallimg = document.getElementsByClassName("small-img");
+
+            smallimg[0].onclick = function(){
+                BainBridge1.src = smallimg[0].src;
+            }
+            smallimg[1].onclick = function(){
+                BainBridge1.src = smallimg[1].src;
+            }
+            smallimg[2].onclick = function(){
+                BainBridge1.src = smallimg[2].src;
+            }
+            smallimg[3].onclick = function(){
+                BainBridge1.src = smallimg[3].src;
+            }
+        </script>
+
+        <script src="test.js"></script>
+        <script src="script.js"></script>
+    </body>
+
+</html>

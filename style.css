@@ -215,6 +215,12 @@ body {
   width: 50%;
   padding-top: 30px;
 }
+
+#prodetails .single-pro-details h6 a {
+  color: #000000;
+  font-size: medium;
+}
+
 #prodetails .single-pro-details h4{
   padding: 40px 0 20px 0;
 }

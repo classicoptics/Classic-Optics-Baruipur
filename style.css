@@ -915,14 +915,14 @@ body {
 }
 
 #sm-banner .banner-box:hover button{
-  background-color: #070049;
+  background-color: #00101f;
   border: 1px solid #fff;
   color: #ffffff;
-  border-radius: 12px;
+  border-radius: 8px;
 }
 
 #sm-banner .banner-box button{
-  border-radius: 12px;
+  border-radius: 8px;
   background-color: #fff;
   color: #0D0338;
 }

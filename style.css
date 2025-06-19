@@ -771,6 +771,8 @@ body {
   border-radius: 25px;
   background-size: cover;
   background-position: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 #banner-4{
@@ -786,6 +788,8 @@ body {
   height: 40vh;
   background-size: cover;
   background-position: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 #banner-5{
@@ -801,6 +805,8 @@ body {
   height: 55vh;
   background-size: cover;
   background-position: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 #banner-6{
@@ -816,6 +822,8 @@ body {
   height: 40vh;
   background-size: cover;
   background-position: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 #banner-7{
@@ -830,7 +838,8 @@ body {
   border-radius: 25px;
   height: 40vh;
   background-size: cover;
-  background-position: center;
+  background-position: center;margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 #banner-8{
@@ -846,6 +855,8 @@ body {
   height: 50vh;
   background-size: cover;
   background-position: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 #banner h4{
@@ -869,6 +880,10 @@ body {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+#product1 p a strong {
+  color: #000;
 }
 
 /* Small Banner */

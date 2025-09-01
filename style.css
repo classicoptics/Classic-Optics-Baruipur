@@ -383,11 +383,11 @@ body {
 #feature .fe-box{
   width: 180px;
   text-align: center;
-  padding: 15px 15px;
+  padding: 15px 8px;
   /*box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
   border: 1px solid #cce7d0;*/
   border-radius: 30px;
-  margin: 15px 0;
+  margin: 10px 0;
 }
 
 
@@ -398,7 +398,7 @@ body {
 
 #feature .fe-box img{
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
   cursor: pointer;
   border-radius: 25px;
 }

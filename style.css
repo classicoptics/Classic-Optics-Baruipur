@@ -1705,7 +1705,7 @@ to {opacity: 1}
     height: 35vh;
   }
   #banner-header {
-    display: none;
+    height: 44vh;
   }
   #banner-6{
     background-image: url("img/banner/pp3.png");

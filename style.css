@@ -775,22 +775,6 @@ body {
   margin-bottom: 25px;
 }
 
-#banner-header{
-  display: flex;
-  margin: 0 auto;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  background-image: url("img/banner/banner-header1.png");
-  width: 90%;
-  height: 400px;
-  background-size: cover;
-  background-position: center;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
 #banner-4{
   display: flex;
   margin: 0 auto;
@@ -1560,13 +1544,6 @@ to {opacity: 1}
 /* About Page End --------------------------------------------- */
 
 
-@media (min-width:768px){
-  #banner-header {
-    display: none;
-  }
-}
-
-
 /* Media Query */
 @media (max-width:799px){
   .section-p1{
@@ -1803,11 +1780,6 @@ to {opacity: 1}
   }
   #sm-banner .banner-box1{
     margin-top: 0px;
-  }
-  #banner-header{
-    background-image: url("img/banner/banner-header2.png");
-    height: 380px;
-    width: 100%;
   }
 
   #banner3{

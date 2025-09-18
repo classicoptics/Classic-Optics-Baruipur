@@ -775,6 +775,22 @@ body {
   margin-bottom: 25px;
 }
 
+#banner-header{
+  display: flex;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: url("img/banner/banner-header1.png");
+  width: 90%;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
 #banner-4{
   display: flex;
   margin: 0 auto;
@@ -1688,6 +1704,9 @@ to {opacity: 1}
     background-image: url("https://india.ray-ban.com/media/wysiwyg/Rb_sunglasses_clp_opti/07_RB_Sunglasses_Page_Bottom_Banner_Desktop.jpg");
     height: 35vh;
   }
+  #banner-header {
+    display: none;
+  }
   #banner-6{
     background-image: url("img/banner/pp3.png");
   }
@@ -1781,6 +1800,11 @@ to {opacity: 1}
   }
   #sm-banner .banner-box1{
     margin-top: 0px;
+  }
+  #banner-header{
+    background-image: url("img/banner/banner-header2.png");
+    height: 380px;
+    width: 100%;
   }
 
   #banner3{

@@ -1051,7 +1051,7 @@ footer{
   width: 100%;
   height: auto;
   padding: 30px 50px;
-  background: #000f1a;
+  background: #202020;
   justify-content: space-between;
   flex-wrap: wrap;
 }
@@ -1103,7 +1103,7 @@ footer p{
   display: inline-block;
   width: 40px;
   height: 40px;
-  background: #222;
+  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1112,12 +1112,8 @@ footer p{
   border-radius: 4px;
 }
 
-.sci li a:hover{
-  background: rgb(0, 132, 255);
-}
-
 .sci li a .fab{
-  color: #fff;
+  color: #000;
   font-size: 20px;
 }
 
@@ -2270,4 +2266,66 @@ section1{
 .tab-btn.active{
   background: #000f1a;
   color: #ffffff;
+}
+
+
+
+
+
+
+
+.category-body {
+    margin: 0;
+    padding: 40px;
+    background: #fff;
+    font-family: "Inter", sans-serif;
+    display: flex;
+    justify-content: center;
+  }
+
+  .img-row {
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 1100px;
+  }
+
+  .img-box {
+    flex: 1 1 280px;
+    max-width: 340px;
+    background: #fff;
+    overflow: hidden;
+    border-radius: 16px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    
+    /* smooth animations */
+    transition: transform .35s ease, box-shadow .35s ease;
+    cursor: pointer;
+  }
+
+  /* Lift & shadow on hover */
+  .img-box:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 14px 30px rgba(0,0,0,0.18);
+  }
+
+  /* Image styling */
+  .img-box img {
+    width: 100%;
+    display: block;
+    transition: transform .6s ease;
+  }
+
+  /* Zoom image slightly on hover */
+  .img-box:hover img {
+    transform: scale(1.07);
+  }
+
+
+.square-img {
+  width: 200px;
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
 }

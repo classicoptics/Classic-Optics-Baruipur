@@ -13,287 +13,47 @@
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="stylo.css"> 
 
-        <style type="text/css">
-            #body201{
-                width: 100%;
-                min-height: 70vh;
-                display: flex;
-                justify-content: center;
-                align-items: center;
-                background-color: transparent;
-            }
-            .slide-container{
-                position: relative;
-                width: 90%;
-                height: 350px;
-                /* border-radius: 10px; */
-                /*border: 3px solid #ebebeb;
-                box-shadow: 0 0 8px 2px rgba(0, 0, 0, 0.2);*/
-            }
-            .slide-container .slides{
-                width: 100%;
-                height: calc(100% - 20px);
-                position: relative;
-                overflow: hidden;
-                /* border-radius: 10px; */
-            }
-            .slide-container .slides img{
-                width: 100%;
-                height: 100%;
-                position: absolute;
-                object-fit: cover;
-                /* border-radius: 10px; */
-            }
-            .slide-container .slides img:not(.active){
-                top: 0;
-                left: -100%;
-            }
-            span.next, span.prev{
-                position: absolute;
-                top: 50%;
-                transform: translateY(-50%);
-                padding: 14px;
-                color: #eee;
-                font-size: 24px;
-                font-weight: bold;
-                transition: 0.5s;
-                border-radius: 3px;
-                user-select: none;
-                cursor: pointer;
-                z-index: 1;
-            }
-            span.next{
-                right: 20px;
-            }
-            span.prev{
-                left: 20px;
-            }
-            span.next:hover, span.prev:hover{
-                background-color: #ede6d6;
-                opacity: 0.8;
-                color: #222;
-            } 
-            .dotsContainer{
-                position: absolute;
-                bottom: 5px;
-                z-index: 3;
-                left: 50%;
-                transform: translateX(-50%);
-            }
-            .dotsContainer .dot{
-                width: 15px;
-                height: 15px;
-                margin: 0px 2px;
-                border: 3px solid #dbdbdb;
-                border-radius: 50%;
-                display: inline-block;
-                cursor: pointer;
-                transition: background-color 0.6s ease;
-            }
-            .dotsContainer .active{
-                background-color: #000;
-            }
-
-            @keyframes next1{
-                from{
-                    left: 0%
-                }
-                to{
-                    left: -100%;
-                }
-            }
-            @keyframes next2{
-                from{
-                    left: 100%
-                }
-                to{
-                    left: 0%;
-                }
-            }
-
-            @keyframes prev1{
-                from{
-                    left: 0%
-                }
-                to{
-                    left: 100%;
-                }
-            }
-            @keyframes prev2{
-                from{
-                    left: -100%
-                }
-                to{
-                    left: 0%;
-                }
-            }
-
-            @media (max-width:471px) {
-                .slide-container {
-                    height: 440px;
-                }
-            }
-
-            @media (max-width:768px) {
-                .slide-container .slides img {
-                    width: 100%;
-                    height: 100%;
-                    position: absolute;
-                    object-fit: contain;
-                }
-            }
-
-	    </style>
-
     </head>
 
     <body>
 
-        <header class="header">
-            <nav class="nav container"> 
-                <div class="nav__data">
-                    <a href="index.html" class="nav__logo">
-                         <img src="img/logo1.png" alt="">
-                    </a>
-    
-                    <div class="nav__toggle" id="nav-toggle">
-                        <i class="ri-menu-line nav__toggle-menu"></i>
-                        <i class="ri-close-line nav__toggle-close"></i>
-                    </div>
+        <header class="tc-header" id="tcHeader" role="banner">
+            <div class="tc-row">
+                <a class="tc-logo" href="index.html" aria-label="TechCrunch Home">
+                    <img alt="TC" src="img/logo1.png" />
+                </a>
+                <div></div>
+                <div class="tc-actions">
+                    <!-- <button class="icon-btn" id="btnSearch" aria-expanded="false" aria-controls="searchWrap" aria-label="Open search" onclick="window.location.href='search.html'">
+                        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M11 3a8 8 0 105.293 14.293l3.707 3.707 1.414-1.414-3.707-3.707A8 8 0 0011 3zm0 2a6 6 0 110 12A6 6 0 0111 5z"/></svg>
+                    </button> -->
+                    <button class="icon-btn" id="btnMenu" aria-expanded="false" aria-controls="navPanel" aria-label="Open menu">
+                    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+                    </button>
                 </div>
+            </div>
+        </header>
 
-                <!--=============== NAV MENU ===============-->
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-
-                        <!--=============== DROPDOWN 1 ===============-->
-                        <li class="dropdown__item">                      
-                            <div class="nav__link dropdown__button">
-                                Eyeglasses <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-                            </div>
-
-                            <div class="dropdown__container">
-                                <div class="dropdown__content">
-    
-                                    <div class="dropdown__group">
-    
-                                        <span class="dropdown__title">SHOP BY BRANDS</span>
-    
-                                        <ul class="dropdown__list">
-                                            <li>
-                                                <a href="raybaneyeglasses.html" class="dropdown__link">Rayban</a>
-                                            </li>
-                                            <li>
-                                                <a href="t&h.html" class="dropdown__link">Tommy Hilfiger</a>
-                                            </li>
-                                            <li>
-                                                <a href="prada.html" class="dropdown__link">Prada</a>
-                                            </li>
-                                            <li>
-                                                <a href="policeeyeglasses.html" class="dropdown__link">Police</a>
-                                            </li>
-                                            <li>
-                                                <a href="brands.html" class="dropdown__link">View More</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-    
-                                    <div class="dropdown__group">
-    
-                                        <span class="dropdown__title">Gender</span>
-    
-                                        <ul class="dropdown__list">
-                                            <li>
-                                                <a href="menseyewear.html" class="dropdown__link">Men</a>
-                                            </li>
-
-                                            <li>
-                                                <a href="womenseyewear.html" class="dropdown__link">Women</a>
-                                            </li>
-
-                                            <li>
-                                                <a href="kidseyewear.html" class="dropdown__link">Kids</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-
-                                </div>
-                            </div>
-                        </li>
-
-                        <!--=============== DROPDOWN 2 ===============-->
-                        <li class="dropdown__item">
-                            <div class="nav__link dropdown__button">
-                                Sunglasses <i class="ri-arrow-down-s-line dropdown__arrow"></i>
-                            </div>
-
-                            <div class="dropdown__container">
-                                <div class="dropdown__content">
-    
-                                    <div class="dropdown__group">
-    
-                                        <span class="dropdown__title">SHOP BY BRANDS</span>
-    
-                                        <ul class="dropdown__list">
-                                            <li>
-                                                <a href="raybansunglasses.html" class="dropdown__link">Rayban</a>
-                                            </li>
-                                            <li>
-                                                <a href="t&h.html" class="dropdown__link">Tommy Hilfiger</a>
-                                            </li>
-                                            <li>
-                                                <a href="dng.html" class="dropdown__link">Dolce & Gabbana</a>
-                                            </li>
-                                            <li>
-                                                <a href="prada.html" class="dropdown__link">Prada</a>
-                                            </li>
-                                            <li>
-                                                <a href="oakley.html" class="dropdown__link">Oakley</a>
-                                            </li>
-                                            <li>
-                                                <a href="brands.html" class="dropdown__link">View More</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-                                    <div class="dropdown__group">
-    
-                                        <span class="dropdown__title">Gender</span>
-    
-                                        <ul class="dropdown__list">
-                                            <li>
-                                                <a href="menseyewear.html" class="dropdown__link">Men</a>
-                                            </li>
-
-                                            <li>
-                                                <a href="womenseyewear.html" class="dropdown__link">Women</a>
-                                            </li>
-
-                                            <li>
-                                                <a href="kidseyewear.html" class="dropdown__link">Kids</a>
-                                            </li>
-                                        </ul>
-                                    </div>
-
-
-                                </div>
-                            </div>
-                        </li>
-
-
-                        <li>
-                            <a href="contactlens.html" class="nav__link">Contact Lens</a>
-                        </li>
-
-                        <li>
-                            <a href="contact.html" class="nav__link">Store Locator</a>
-                        </li>
-                        
-                    </ul>
-                </div>
+        <div class="panel-overlay" id="panelOverlay" aria-hidden="true"></div>
+        <aside class="panel" id="navPanel" aria-hidden="true" aria-label="Main menu">
+            <div class="panel-head">
+            <div class="panel-title">Menu</div>
+            <button class="panel-close" id="btnPanelClose" aria-label="Close menu">
+                <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="#111" stroke-width="2" stroke-linecap="round" fill="none"/></svg>
+            </button>
+            </div>
+            <nav class="panel-nav" role="navigation">
+                <a class="panel-link" href="tel:8250747347"><i class="ri-phone-fill"></i> &ensp; 8250747347</a>
+                <a class="panel-link" href="brands.html">Shop By Brands &ensp; <i class="ri-arrow-right-s-line"></i></a>
+                <a class="panel-link" href="regional.html">Regional Collction &ensp; <i class="ri-arrow-right-s-line"></i></a>
+                <a class="panel-link" href="classics.html">Classics Collection &ensp; <i class="ri-arrow-right-s-line"></i></a>
+                <a class="panel-link" href="exclusive.html">Exclusives Collection &ensp; <i class="ri-arrow-right-s-line"></i></a>
+                <a class="panel-link" href="premiumprice.html">Premium Collection &ensp; <i class="ri-arrow-right-s-line"></i></a>
+                <a class="panel-link" href="contactlens.html">Contact Lens &ensp; <i class="ri-arrow-right-s-line"></i></a>
+                <a class="panel-link" href="contact.html">Store Locator &ensp; <i class="ri-arrow-right-s-line"></i></a>
+                
             </nav>
-        </header> 
+        </aside> 
 
         <section id="body2">
 
@@ -336,13 +96,9 @@
             </div>
         </section>
 
-
-        <section id="body201">
-
-            <div class="slide-container">
-                
-                <div class="slides">
-
+        <section class="carousel-body">
+            <div class="carousel-wrapper">
+                <div class="carousel" id="carousel">
                     <picture>
                         <source srcset="img/banner/shorthbanner1.jpeg" media="(max-width: 471px)">
                         <img src="img/banner/longhbanner1.jpeg">
@@ -367,111 +123,8 @@
                         <source srcset="img/banner/shorthbanner5.jpeg" media="(max-width: 471px)">
                         <img src="img/banner/longhbanner5.jpeg">
                     </picture>
-
                 </div>
-
-                <div class="buttons">
-                    <span class="next">&#10095;</span>
-                    <span class="prev">&#10094;</span>
-                </div>
-
-                <!-- <div class="dotsContainer">
-                    <div class="dot active" attr='0' onclick="switchImage(this)"></div>
-                    <div class="dot" attr='1' onclick="switchImage(this)"></div>
-                    <div class="dot" attr='2' onclick="switchImage(this)"></div>
-                    <div class="dot" attr='3' onclick="switchImage(this)"></div>
-                </div> -->
-
             </div>
-
-            <script type="text/javascript">
-                
-                // Access the Images
-                let slideImages = document.querySelectorAll('img');
-                // Access the next and prev buttons
-                let next = document.querySelector('.next');
-                let prev = document.querySelector('.prev');
-                // Access the indicators
-                let dots = document.querySelectorAll('.dot');
-
-                var counter = 0;
-
-                // Code for next button
-                next.addEventListener('click', slideNext);
-                function slideNext(){
-                slideImages[counter].style.animation = 'next1 0.5s ease-in forwards';
-                if(counter >= slideImages.length-1){
-                    counter = 0;
-                }
-                else{
-                    counter++;
-                }
-                slideImages[counter].style.animation = 'next2 0.5s ease-in forwards';
-                indicators();
-                }
-
-                // Code for prev button
-                prev.addEventListener('click', slidePrev);
-                function slidePrev(){
-                slideImages[counter].style.animation = 'prev1 0.5s ease-in forwards';
-                if(counter == 0){
-                    counter = slideImages.length-1;
-                }
-                else{
-                    counter--;
-                }
-                slideImages[counter].style.animation = 'prev2 0.5s ease-in forwards';
-                indicators();
-                }
-
-                // Auto slideing
-                function autoSliding(){
-                    deletInterval = setInterval(timer, 3000);
-                    function timer(){
-                        slideNext();
-                        indicators();
-                    }
-                }
-                autoSliding();
-
-                // Stop auto sliding when mouse is over
-                const container = document.querySelector('.slide-container');
-                container.addEventListener('mouseover', function(){
-                    clearInterval(deletInterval);
-                });
-
-                // Resume sliding when mouse is out
-                container.addEventListener('mouseout', autoSliding);
-
-                // Add and remove active class from the indicators
-                function indicators(){
-                    for(i = 0; i < dots.length; i++){
-                        dots[i].className = dots[i].className.replace(' active', '');
-                    }
-                    dots[counter].className += ' active';
-                }
-
-                // Add click event to the indicator
-                function switchImage(currentImage){
-                    currentImage.classList.add('active');
-                    var imageId = currentImage.getAttribute('attr');
-                    if(imageId > counter){
-                    slideImages[counter].style.animation = 'next1 0.5s ease-in forwards';
-                    counter = imageId;
-                    slideImages[counter].style.animation = 'next2 0.5s ease-in forwards';
-                    }
-                    else if(imageId == counter){
-                        return;
-                    }
-                    else{
-                    slideImages[counter].style.animation = 'prev1 0.5s ease-in forwards';
-                    counter = imageId;
-                    slideImages[counter].style.animation = 'prev2 0.5s ease-in forwards';	
-                    }
-                    indicators();
-                }
-
-            </script>
         </section>
 
         <div class="sbb-head">
@@ -485,11 +138,11 @@
                 </div>
 
                 <div class="img-box">
-                    <img src="img/features/m2.png" alt="Image 2">
+                    <img src="img/features/m2.png" alt="Image 2" onclick="window.location.href='womenseyewear.html'">
                 </div>
 
                 <div class="img-box">
-                    <img src="img/features/m3.png" alt="Image 3">
+                    <img src="img/features/m3.png" alt="Image 3" onclick="window.location.href='kidseyewear.html'">
                 </div>
             </div>
         </section>
@@ -516,15 +169,15 @@
         <section class="category-body">
             <div class="img-row">
                 <div class="img-box">
-                    <img src="img/features/n1.png" alt="Image 1" onclick="window.location.href='menseyewear.html'">
+                    <img src="img/features/n1.png" alt="Image 1" onclick="window.location.href='menssunglasses.html'">
                 </div>
 
                 <div class="img-box">
-                    <img src="img/features/n2.png" alt="Image 2">
+                    <img src="img/features/n2.png" alt="Image 2" onclick="window.location.href='womenssunglasses.html'">
                 </div>
 
                 <div class="img-box">
-                    <img src="img/features/n3.png" alt="Image 3">
+                    <img src="img/features/n3.png" alt="Image 3" onclick="window.location.href='kidssunglasses.html'">
                 </div>
             </div>
         </section>
@@ -549,24 +202,14 @@
             <h1>Shop By Brands</h1>
             <p>Varieties from Eyeglasses, Sunglasses to Contact Lens & much more.</p><a href="brands.html"><button class="normal_all">View All</button></a>
         </div>
-        <section id="feature" class="section-p1">
-            <div class="fe-box">
-                <a href="oakley.html"><img src="img/features/l2.webp" alt=""></a>
-            </div>
-            <div class="fe-box">
-                <a href="idee.html"><img src="img/features/l6.png" alt=""></a>
-            </div>
-            <div class="fe-box">
-                <a href="irus.html"><img src="img/features/l7.png" alt=""></a>
-            </div>
-            <div class="fe-box">
-                <a href="scott.html"><img src="img/features/l9.webp" alt=""></a>
-            </div>
-            <div class="fe-box">
-                <a href="prada.html"><img src="img/features/l10.png" alt=""></a>
-            </div>
-            <div class="fe-box">
-                <a href="t&h.html"><img src="https://cdn.worldvectorlogo.com/logos/tommy-hilfiger-2.svg" alt=""></a>
+        <section class="category-row">
+            <div class="image-grid">
+                <img src="img/features/l2.webp" alt="" onclick="window.location.href='oakley.html'">
+                <img src="img/features/l6.png" alt="" onclick="window.location.href='idee.html'">
+                <img src="img/features/l7.png" alt="" onclick="window.location.href='irus.html'">
+                <img src="img/features/l9.webp" alt="" onclick="window.location.href='scott.html'">
+                <img src="img/features/l10.png" alt="" onclick="window.location.href='prada.html'">
+                <img src="https://cdn.worldvectorlogo.com/logos/tommy-hilfiger-2.svg" alt="" onclick="window.location.href='t&h.html'">
             </div>
         </section>
 
@@ -2360,6 +2003,18 @@
         </footer>
 
         <script src="script.js"></script>
+        <script>
+            const carousel = document.getElementById("carousel");
+            let index = 0;
+            const total = 5;
+
+            function slide() {
+            index = (index + 1) % total;
+            carousel.style.transform = `translateX(-${index * 100}vw)`;
+            }
+
+            setInterval(slide, 3000); // Change image every 3 seconds
+        </script>
     </body>
 
 </html>

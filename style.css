@@ -2355,12 +2355,14 @@ section1{
   height: 180px;     /* consistent height */
   object-fit: cover;
   border-radius: 10px;
+  /* border: 2px solid black; */
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
 
 /* Hover animation */
 .image-grid img:hover {
   transform: scale(1.06);
+  /* border: none; */
   box-shadow: 0 10px 20px rgba(0,0,0,0.5);
 }
 

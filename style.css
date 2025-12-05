@@ -2355,6 +2355,7 @@ section1{
   height: 180px;     /* consistent height */
   object-fit: cover;
   border-radius: 10px;
+  cursor: pointer;
   /* border: 2px solid black; */
   transition: transform 0.4s ease, box-shadow 0.4s ease;
 }
@@ -2382,7 +2383,7 @@ section1{
 
 .carousel-body {
   margin: 0;
-  background: #111;
+  background: transparent;
 }
 
 /* Wrapper */
@@ -2403,7 +2404,7 @@ section1{
 .carousel img {
   width: 100vw;
   height: 63vh;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 /* Mobile adjustments */

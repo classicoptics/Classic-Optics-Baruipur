@@ -208,6 +208,12 @@ body {
   width: 200px;
   height: 200px;
 }
+@media (max-width:457px) {
+  .image-container img{
+    width: 150px;
+    height: 150px;
+}
+}
 
 /* Images styling */
 .img-item {

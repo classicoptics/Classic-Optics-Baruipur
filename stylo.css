@@ -15,7 +15,7 @@
     .tc-header{position:fixed;left:0;right:0;top:0;height:var(--header-h-mobile);background:var(--tc-bg);color:var(--tc-text);z-index:var(--z-header);transition:box-shadow .18s ease}
     .tc-header.scrolled{box-shadow:0 2px 0 rgba(0,0,0,.06),0 6px 16px rgba(0,0,0,.12)}
     .tc-row{max-width:1280px;margin:0 auto;height:100%;display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:12px;padding:0 12px}
-    .tc-logo img{height:10px;display:block}
+    .tc-logo img{height:60px;display:block}
     .tc-actions{display:flex;gap:12px;align-items:center}
     .icon-btn{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;border:0;background:transparent;color:var(--tc-text);border-radius:6px;cursor:pointer}
     .icon-btn:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
